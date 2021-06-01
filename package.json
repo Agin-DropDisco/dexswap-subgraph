@@ -6,16 +6,16 @@
   "scripts": {
     "codegen:mainnet": "graph codegen --output-dir src/types/",
     "codegen:rinkeby": "graph codegen subgraph.rinkeby.yaml --output-dir src/types/",
-    "codegen:matic": "graph codegen subgraph.xdai.yaml --output-dir src/types/",
+    "codegen:matic": "graph codegen subgraph.matic.yaml --output-dir src/types/",
     "build:mainnet": "graph build",
     "build:rinkeby": "graph build subgraph.rinkeby.yaml",
-    "build:matic": "graph build subgraph.xdai.yaml",
-    "create-local": "graph create agin-dropdisco/dexswapdexs --node http://127.0.0.1:8020",
-    "deploy-local:rinkeby": "graph deploy agin-dropdisco/dexswapdexs subgraph.rinkeby.yaml --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy-local:mainnet": "graph deploy agin-dropdisco/dexswapdexs subgraph.rinkeby.yaml --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy:rinkeby": "graph deploy agin-dropdisco/dexswapdexs subgraph.rinkeby.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token  --debug",
-    "deploy:matic": "graph deploy agin-dropdisco/dexswapdexs  subgraph.matic.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token  --debug",
-    "deploy:mainnet-alpha": "graph deploy agin-dropdisco/dexswapdexs-mainnet-alpha subgraph.mainnet.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token  --debug"
+    "build:matic": "graph build subgraph.matic.yaml",
+    "create-local": "graph create agin-dropdisco/dexswapnew --node http://127.0.0.1:8020",
+    "deploy-local:rinkeby": "graph deploy agin-dropdisco/dexswapnew subgraph.rinkeby.yaml --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "deploy-local:mainnet": "graph deploy agin-dropdisco/dexswapnew subgraph.rinkeby.yaml --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "deploy:rinkeby": "graph deploy agin-dropdisco/dexswapnew subgraph.rinkeby.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token  --debug",
+    "deploy:matic": "graph deploy agin-dropdisco/dexswapnew  subgraph.matic.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token  --debug",
+    "deploy:mainnet-alpha": "graph deploy agin-dropdisco/dexswapnew-mainnet-alpha subgraph.mainnet.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token  --debug"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.19.0",
