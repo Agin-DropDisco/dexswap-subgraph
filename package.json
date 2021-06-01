@@ -1,6 +1,6 @@
 {
   "name": "dexswap-subgraph",
-  "version": "1.0.0",
+  "version": "v0.1.1",
   "repository": "https://github.com/Agin-DropDisco/dexswap-subgraph",
   "description": "subgraph sample for Rinkeby || Matic || Moonbeam",
   "license": "GPL-3.0-or-later",
