@@ -1,7 +1,7 @@
 # DexSwap Subgraph
 
-- Rinkeby : 
+- Rinkeby : https://thegraph.com/explorer/subgraph/agin-dropdisco/dexswap-rinkeby
 
-- Matic : 
+- Matic : https://thegraph.com/explorer/subgraph/agin-dropdisco/dexswap-matic
 
-- Moonbeam : 
+- Moonbeam : https://thegraph.com/explorer/subgraph/agin-dropdisco/dexswap-moonbeam
